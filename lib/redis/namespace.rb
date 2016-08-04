@@ -156,6 +156,7 @@ class Redis
       "sscan_each"       => [ :first ],
       "strlen"           => [ :first ],
       "subscribe"        => [ :all ],
+      "subscribe_with_timeout" => [ :exclude_first ],
       "sunion"           => [ :all ],
       "sunionstore"      => [ :all ],
       "ttl"              => [ :first ],
